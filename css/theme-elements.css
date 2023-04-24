@@ -1,11 +1,11 @@
 @charset "UTF-8";
-/*
-Name: 			theme-elements.css
+
+/* Name: 			theme-elements.css
 Written by: 	Okler Themes - (http://www.okler.net)
-Theme Version:	9.9.2
-*/
-/* Accordion */
-.accordion .card {
+Theme Version:	9.9.2 */
+
+ Accordion
+ .accordion .card {
 	margin-top: 5px;
 }
 
@@ -47,7 +47,7 @@ Theme Version:	9.9.2
 	margin-right: 4px;
 	position: relative;
 	top: 1px;
-}
+} */
 
 .accordion .card-header a [class*="fa-"], .accordion .card-header a .icons {
 	display: inline-block;
@@ -172,7 +172,7 @@ Theme Version:	9.9.2
 	transform: translate3d(0, -50%, 0) rotate(45deg);
 	transform-origin: 50% 50%;
 	transition: ease transform 300ms;
-}
+} */
 
 .accordion.accordion-modern-status > .card .card-header a.collapsed:after {
 	transform: translate3d(0, -50%, 0) rotate(0deg);
@@ -218,60 +218,14 @@ Theme Version:	9.9.2
 	background-color: #EDEDED;
 }
 
-/* Animations */
-.appear-animation {
-	opacity: 0;
-}
 
-.appear-animation-visible {
-	opacity: 1;
-}
 
-.block-appear-animation {
-	opacity: 1;
-	overflow: hidden;
-	position: relative;
-}
-
-.block-appear-animation .block-appear-animation-wrapper {
-	animation-duration: 1s;
-	animation-duration: var(--animate-duration);
-	animation-fill-mode: both;
-	animation-delay: 300ms;
-	opacity: 0;
-}
-
-.block-appear-animation.appear-animation-visible .block-appear-animation-wrapper {
-	animation-name: fadeIn;
-}
-
-/* Transitions */
-.transition-2ms {
-	transition: all 0.2s ease-in-out;
-}
-
-.transition-3ms {
-	transition: all 0.3s ease-in-out;
-}
-
-.transition-4ms {
-	transition: all 0.4s ease-in-out;
-}
-
-.transition-5ms {
-	transition: all 0.5s ease-in-out;
-}
-
-.transition-1s {
-	transition: all 1s ease-in-out;
-}
-
-/* Transition Magnetic */
+Transition Magnetic */
 .transition-magnetic {
 	transition: transform 0.5s cubic-bezier(0.25, 1, 0.2, 1);
 }
 
-/* Translate Animations */
+ Translate Animations */
 .anim-hover-translate-top-0px:hover {
 	transform: translateY(0px) !important;
 }
@@ -314,7 +268,7 @@ Theme Version:	9.9.2
 
 .anim-hover-translate-left-10px:hover {
 	transform: translateX(-10px) !important;
-}
+} */
 
 .anim-hover-translate-right-10px:hover {
 	transform: translateX(10px) !important;
@@ -382,7 +336,7 @@ Theme Version:	9.9.2
 
 .anim-hover-inner-wrapper:hover .anim-hover-inner-translate-right-0px {
 	transform: translateX(0px) !important;
-}
+} */ */
 
 .anim-hover-inner-wrapper:hover .anim-hover-inner-translate-top-5px {
 	transform: translateY(-5px) !important;
@@ -8714,7 +8668,7 @@ i.pi.pi-close:after {
 .img-thumbnail img {
 	border-radius: 4px;
 }
-
+/*
 .img-thumbnail .zoom {
 	background: #CCC;
 	border-radius: 100%;
@@ -9331,8 +9285,8 @@ html.lightbox-opened.sticky-header-active #header .header-body {
 	padding-left: 32px;
 }
 
-.list.list-icons.list-icons-sm.list-icons-style-3 li > [class*="fa-"]:first-child,
-.list.list-icons.list-icons-sm.list-icons-style-3 li > .icons:first-child, .list.list-icons.list-icons-sm.list-icons-style-3 li a:first-child > [class*="fa-"]:first-child,
+.list.list-icons.list-icons-sm.list-icons-style-3 li > [class*="fa-"]:first-child, */
+/* .list.list-icons.list-icons-sm.list-icons-style-3 li > .icons:first-child, .list.list-icons.list-icons-sm.list-icons-style-3 li a:first-child > [class*="fa-"]:first-child,
 .list.list-icons.list-icons-sm.list-icons-style-3 li a:first-child > .icons:first-child {
 	width: 20px;
 	height: 20px;
@@ -9596,8 +9550,8 @@ html.safari.iphone .bounce-loader .bounce3 {
 	font-weight: bold;
 	letter-spacing: -1.5px;
 	color: #212121;
-}
-
+} */
+/*
 .loading-overlay.loading-overlay-percentage.loading-overlay-percentage-effect-2 .loading-overlay-background-layer {
 	position: absolute;
 	top: 0;
@@ -11132,8 +11086,8 @@ html body .rounded-circle {
 	margin-right: 0;
 }
 
-.pagination.pagination-rounded .page-link {
-	border-radius: 50% !important;
+.pagination.pagination-rounded .page-link { */
+	/* border-radius: 50% !important;
 	padding: 0;
 	width: 30px;
 	text-align: center;
@@ -11423,8 +11377,8 @@ html body .rounded-circle {
 	width: 0;
 	position: absolute;
 	pointer-events: none;
-	border-color: rgba(255, 255, 255, 0);
-	border-right-color: #fff;
+	border-color: rgba(255, 255, 255, 0); */
+	/* border-right-color: #fff;
 	border-width: 5px;
 	margin-top: -5px;
 }
@@ -11780,7 +11734,7 @@ body.page-transition-active {
 	opacity: 0 !important;
 }
 
-/* 
+/*
 Image 360º Viewer
 Credits: Codyhouse (https://codyhouse.co/gem/360-degrees-product-viewer)
 */
@@ -14400,8 +14354,8 @@ html.side-panel.side-panel-open.side-panel-push.side-panel-right .body {
 .slider-container .tp-opacity-overlay-light {
 	background: #FFF;
 	opacity: 0.75;
-}
-
+} */
+/*
 .slider-container.transparent {
 	background-color: transparent;
 }
@@ -15498,8 +15452,8 @@ html.gecko .sort-destination.sort-destination-margin > [class*="col-"] {
 }
 
 .nav-tabs li .nav-link:hover {
-	border-bottom-color: transparent;
-	border-top: 3px solid #CCC;
+	border-bottom-color: transparent; */
+	/* border-top: 3px solid #CCC;
 	box-shadow: none;
 }
 
@@ -19108,4 +19062,4 @@ ul.team-list .team-item .thumb-info-social-icons {
 		letter-spacing: 0;
 		line-height: 100px;
 	}
-}
+} */ */

@@ -5,3 +5,24 @@
 .energy {
   color: #dc2f02;
 }
+
+.bg-body-tertiary {
+  background-color: #171717 !important;
+}
+
+
+.contact-form {
+  color: whitesmoke !important;
+}
+
+.contact-btn {
+  text-decoration: none;
+}
+
+#footer {
+  background-color: #171717 !important;
+}
+
+.footer-logo {
+  margin-bottom: 1.5rem !important;
+}
