@@ -6,14 +6,50 @@
   color: #fe9400;
 }
 
+/* home */
+#home {
+  background-image: linear-gradient(to bottom right,#007b21, rgb(33, 141, 218));
+}
 
+/* about */
+#about {
+  background-color: #fff !important;
+}
+
+/* career-finder */
+#career-finder {
+  background-image: linear-gradient(to right, rgb(29, 149, 235) , #fe9400);
+}
+
+/* button */
+.btn {
+  background-color: #fe9400 !important;
+  border: none !important;
+}
+
+/* more about EWSETA */
+#more-info {
+  background-image: linear-gradient(to bottom right,#fe9400, #007b21);
+  text-shadow:2px 2px #171717 !important;
+
+}
+
+/* contact */
+#contact {
+  background-image: linear-gradient(to bottom right,#44ab5f, #fe9400 );
+}
+
+.contact-btn {
+  text-decoration: none;
+}
 
 .contact-form {
   color: whitesmoke !important;
 }
 
-.contact-btn {
-  text-decoration: none;
+/* footer */
+.nav-link-footer {
+  color: #007b21 !important;
 }
 
 #footer {
@@ -22,37 +58,4 @@
 
 .footer-logo {
   margin-bottom: 1.5rem !important;
-}
-
-#career-finder {
-  background-image: linear-gradient(to right, rgb(29, 149, 235) , #fe9400);
-}
-
-
-
-#home {
-  background-image: linear-gradient(to bottom right,#007b21, rgb(33, 141, 218));
-}
-
-#about {
-  background-color: #fff !important;
-}
-
-.btn {
-  background-color: #fe9400 !important;
-  border: none !important;
-}
-
-#more-info {
-  background-image: linear-gradient(to bottom right,#fe9400, #007b21);
-  text-shadow:2px 2px #171717 !important;
-
-}
-
-#contact {
-  background-image: linear-gradient(to bottom right,#44ab5f, #fe9400 );
-}
-
-.nav-link-footer {
-  color: #007b21 !important;
 }
